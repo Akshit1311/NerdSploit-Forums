@@ -25,7 +25,7 @@
 
 <div class="super_container">
 
-	
+	<!-- Header -->
 
 	<?php 
 
@@ -1389,6 +1389,8 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Footer -->
 
 	<?php
 		include("footer.html");
