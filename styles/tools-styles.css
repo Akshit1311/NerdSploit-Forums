@@ -1,0 +1,175 @@
+#kali-logo {
+    /* display: none; */
+    max-height: 350px;
+    z-index: 1;
+    left: 0; 
+    right: 0; 
+    bottom: 5%;
+    top: 0;
+    translate: 10px;
+    margin: auto;
+    position: absolute;
+    animation: kali 2s;
+    /* opacity: 0.75; */
+    
+    
+}
+
+.slide-tools {
+    animation: bg 1s;
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.668));
+    overflow-x: hidden;
+    height: 100vh;
+    z-index: ;
+}
+
+@keyframes kali {
+    from {
+        top: 90%;
+        height: 10px;
+        transform: rotate(-1000deg);
+        
+    }
+    to {
+        top: 0;
+        height: 350px;
+        transform: rotate(0deg);
+        
+    }
+}
+
+@keyframes bg {
+    0% {
+        background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.368));
+    }
+
+    40% {
+        background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.468));
+    }
+
+    60% {
+        background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.468));
+    }
+
+    80% {
+        background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.468));
+    }
+
+    100% {
+        background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.568));
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    #kali-logo {
+        height: 250px;
+    }
+
+    @keyframes kali {
+        from {
+            top: 90%;
+            height: 10px;
+            transform: rotate(-1000deg);
+            
+        }
+        to {
+            top: 0;
+            height: 250px;
+            transform: rotate(0deg);
+            
+        }
+    }
+}
+
+
+.tool-icon {
+    /* height: 50px; */
+    width: 50px !important;
+    display: inline;
+}
+
+.card-container {
+    position: relative;
+    width: 250px;
+    margin: 5rem auto;
+  }
+
+.card-row {
+
+    padding: 5rem 25rem;
+    display: flex;
+    
+}
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(15, 15, 15, 0.856);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .card-container:hover .card-overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .text .fa {
+      border-radius: 50px !important;
+      border: 2px solid rgb(255, 255, 255);
+      padding: 10px;
+  }
+  
+  .text .fa:hover {
+    opacity: 0.5;
+  }
+
+  .icon{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .page_content {
+      padding-top: 10rem;
+  }
+  .tool-heading {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      right: 0;
+
+      font-size: 5rem;
+  }
+
+  @media screen and (max-width: 600px){
+      .tool-heading {
+          font-size: 2.5rem;
+      }
+  }
+
+

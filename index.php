@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>NerdSploit
+<title>NerdSploit | Home
 </title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,12 @@
 <script src="./php-live-reload/live-reload.js"></script>
 
 
+<!-- Custom CSS -->
+<link rel="stylesheet" href="./styles/tools-styles.css">
+
+
+<!-- Favicon -->
+<link rel="icon" href="./images/logos/favicon.ico" type="image/icon" sizes="30x16">
 
 </head>
 <body>
@@ -35,11 +41,13 @@
 
 	
 
+
 	
 	
 	<!-- Home -->
 
 	<div class="home">
+	<img id="kali-logo" src="./images/tools/kali-logo.png" alt="">
 		
 		<!-- Home Slider -->
 
@@ -48,15 +56,17 @@
 				
 				<!-- Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
-					<div class="home_slider_content_container">
+					<div class="home_slider_background slide-tools" ></div>
+					<div class="home_slider_content_container ">
+					
 						<div class="container">
+							
 							<div class="row">
 								<div class="col">
 									<div class="home_slider_content">
 										<div class="home_slider_item_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
 										<div class="home_slider_item_title">
-											<a href="post.php">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a>
+											<a href="post.php"> Tools <br><br>“The quieter you become, the more you are able to hear”</a>
 										</div>
 										<div class="home_slider_item_link">
 											<a href="post.php" class="trans_200">Continue Reading
@@ -80,21 +90,21 @@
 								<!-- Similar Post -->
 								<div class="col-lg-3 col-md-6 similar_post_col">
 									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
+										<a href="post.html col">John The Ripper</a>				
 									</div>
 								</div>
 
 								<!-- Similar Post -->
 								<div class="col-lg-3 col-md-6 similar_post_col">
 									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
+										<a href="post.html">Metasploit</a>
 									</div>
 								</div>
 
 								<!-- Similar Post -->
 								<div class="col-lg-3 col-md-6 similar_post_col">
 									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
+										<a href="post.html">Snort</a>
 									</div>
 								</div>
 
@@ -395,7 +405,7 @@
 
 						<div class="blog_section">
 							<div class="section_panel d-flex flex-row align-items-center justify-content-start">
-								<div class="section_title">What's Trending</div>
+								<div class="section_title">News</div>
 								<div class="section_tags ml-auto">
 									<ul>
 										<li class="active"><a href="category.html">all</a></li>
@@ -500,14 +510,14 @@
 										<div class="videos">
 											<div class="player_container">
 												<div id="P1" class="player" 
-												     data-property="{videoURL:'2ScS5kwm7nI',containment:'self',startAt:0,mute:false,autoPlay:false,loop:false,opacity:1}">
+												     data-property="{videoURL:'M1Wl91bnAMI',containment:'self',startAt:0,mute:false,autoPlay:false,loop:false,opacity:1}">
 												</div>
 											</div>
 											<div class="playlist">
 												<div class="playlist_background"></div>
 
 												<!-- Video -->
-												<div class="video_container video_command active" onclick="jQuery('#P1').YTPChangeVideo({videoURL: '2ScS5kwm7nI', mute:false, addRaster:true})">
+												<div class="video_container video_command active" onclick="jQuery('#P1').YTPChangeVideo({videoURL: 'kEA6AGg0qwk', mute:false, addRaster:true})">
 													<div class="video d-flex flex-row align-items-center justify-content-start">
 														<div class="video_image"><div><img src="images/video_1.jpg" alt=""></div><img class="play_img" src="images/play.png" alt=""></div>
 														<div class="video_content">
@@ -856,7 +866,7 @@
 
 						<div class="sidebar_section newest_videos">
 							<div class="sidebar_title_container">
-								<div class="sidebar_title">Newest Videos</div>
+								<div class="sidebar_title">Books </div>
 								<div class="sidebar_slider_nav">
 									<div class="custom_nav_container sidebar_slider_nav_container">
 										<div class="custom_prev custom_prev_vid">
@@ -1076,7 +1086,7 @@
 
 						<div class="sidebar_section future_events">
 							<div class="sidebar_title_container">
-								<div class="sidebar_title">Future Events</div>
+								<div class="sidebar_title">Podcasts</div>
 								<div class="sidebar_slider_nav">
 									<div class="custom_nav_container sidebar_slider_nav_container">
 										<div class="custom_prev custom_prev_events">
