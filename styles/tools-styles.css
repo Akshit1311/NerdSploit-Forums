@@ -1,6 +1,6 @@
 #kali-logo {
     /* display: none; */
-    max-height: 350px;
+    max-height: 250px;
     z-index: 1;
     left: 0; 
     right: 0; 
@@ -32,7 +32,7 @@
     }
     to {
         top: 0;
-        height: 350px;
+        height: 250px;
         transform: rotate(0deg);
         
     }
@@ -87,7 +87,7 @@
 
 .card-container {
     position: relative;
-    width: 250px;
+    width: 200px;
     margin: 5rem auto;
   }
 

@@ -6,18 +6,34 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Demo project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- Bootstrap CDN-->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+
+<!-- jQuery -->
 <link rel="stylesheet" type="text/css" href="plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
+
+<!-- Styles -->
 <link rel="stylesheet" type="text/css" href="styles/post_nosidebar.css">
 <link rel="stylesheet" type="text/css" href="styles/post_nosidebar_responsive.css">
 
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="./styles/tools-styles.css">
+<link rel="stylesheet" href="./styles/books-styles.css">
+
 </head>
 <body>
 
@@ -80,14 +96,14 @@
 
 									<br>
 									<br>
-								<a href="https://www.openwall.com/john/" class="icon book-link"><i class="fa fa-angle-right"></i></a>
+								<a href="https://www.openwall.com/john/" class="icon book-link"> <i class="fa fa-download"></i></a>
 								</div>
 								
 								</div>
 							</div>
 
 
-							<div class="card-container">
+							<div class="card-container book">
 								<img src="./images/books/book2.png" alt="Avatar" class="image">
 								<div class="card-overlay">
 								<div class="text">				
@@ -96,16 +112,14 @@
 
 									<br>
 									<br>
-								<a href="https://www.metasploit.com/" class="icon"><i class="fa fa-angle-right"></i></a>
+								<a href="https://www.metasploit.com/" class="icon"><i class="fa fa-download"></i></a>
 								</div>
 								
 								</div>
 							</div>
 
-						</div>
-
-						<div class="row">
-							<div class="card-container">
+						
+							<div class="card-container book">
 								<img src="./images/books/book3.png" alt="Avatar" class="image">
 								<div class="card-overlay">
 								<div class="text">				
@@ -114,13 +128,13 @@
 
 									<br>
 									<br>
-								<a href="https://www.snort.org/" class="icon"><i class="fa fa-angle-right"></i></a>
+								<a href="https://www.snort.org/" class="icon"><i class="fa fa-download"></i></a>
 								</div>
 								
 								</div>
 							</div>
 
-							<div class="card-container">
+							<div class="card-container book">
 								<img src="./images/books/book4.png" alt="Avatar" class="image">
 								<div class="card-overlay">
 								<div class="text">				
@@ -129,7 +143,7 @@
 
 									<br>
 									<br>
-								<a href="https://www.wireshark.org/" class="icon"><i class="fa fa-angle-right"></i></a>
+								<a href="https://www.wireshark.org/" class="icon"><i class="fa fa-download"></i></a>
 								</div>
 								
 								</div>

@@ -88,70 +88,85 @@
 
 						<div class="row">
 
-							<div class="card-container">
-								<img src="./images/tools/tool1.jfif" alt="Avatar" class="image">
-								<div class="card-overlay">
-								<div class="text">				
-									John the Ripper
-									<br>
+							<div class="col-lg-3">
 
-									<br>
-									<br>
-								<a href="https://www.openwall.com/john/" class="icon"><i class="fa fa-angle-right"></i></a>
+								<div class="card-container">
+									<img src="./images/tools/tool1.jfif" alt="Avatar" class="image">
+									<div class="card-overlay">
+									<div class="text">				
+										John the Ripper
+										<br>
+
+										<br>
+										<br>
+									<a href="https://www.openwall.com/john/" class="icon"><i class="fa fa-angle-right"></i></a>
+									</div>
+									
+									</div>
 								</div>
-								
+
+							</div>
+
+							<div class="col-lg-3">
+
+
+								<div class="card-container">
+									<img src="./images/tools/tool2.png" alt="Avatar" class="image">
+									<div class="card-overlay">
+									<div class="text">				
+										Metasploit Project
+										<br>
+
+										<br>
+										<br>
+									<a href="https://www.metasploit.com/" class="icon"><i class="fa fa-angle-right"></i></a>
+									</div>
+									
+									</div>
 								</div>
 							</div>
 
 
-							<div class="card-container">
-								<img src="./images/tools/tool2.png" alt="Avatar" class="image">
-								<div class="card-overlay">
-								<div class="text">				
-									Metasploit Project
-									<br>
+							<div class="col-lg-3">
 
-									<br>
-									<br>
-								<a href="https://www.metasploit.com/" class="icon"><i class="fa fa-angle-right"></i></a>
+							
+								<div class="card-container">
+									<img src="./images/tools/tool3.jpg" alt="Avatar" class="image">
+									<div class="card-overlay">
+									<div class="text">				
+										Snort
+										<br>
+
+										<br>
+										<br>
+									<a href="https://www.snort.org/" class="icon"><i class="fa fa-angle-right"></i></a>
+									</div>
+									
+									</div>
 								</div>
-								
-								</div>
+
 							</div>
 
+							<div class="col-lg-3">
+
+								<div class="card-container">
+									<img src="./images/tools/tool4.jpg" alt="Avatar" class="image">
+									<div class="card-overlay">
+									<div class="text">				
+										Wireshark
+										<br>
+
+										<br>
+										<br>
+									<a href="https://www.wireshark.org/" class="icon"><i class="fa fa-angle-right"></i></a>
+									</div>
+									
+									</div>
+								</div>
+
+							</div>
 						</div>
 
-						<div class="row">
-							<div class="card-container">
-								<img src="./images/tools/tool3.jpg" alt="Avatar" class="image">
-								<div class="card-overlay">
-								<div class="text">				
-									Snort
-									<br>
-
-									<br>
-									<br>
-								<a href="https://www.snort.org/" class="icon"><i class="fa fa-angle-right"></i></a>
-								</div>
-								
-								</div>
-							</div>
-
-							<div class="card-container">
-								<img src="./images/tools/tool4.jpg" alt="Avatar" class="image">
-								<div class="card-overlay">
-								<div class="text">				
-									Wireshark
-									<br>
-
-									<br>
-									<br>
-								<a href="https://www.wireshark.org/" class="icon"><i class="fa fa-angle-right"></i></a>
-								</div>
-								
-								</div>
-							</div>
-						</div>
 
 						<!-- Post Body -->
 

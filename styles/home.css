@@ -1,0 +1,64 @@
+
+.slide-1 {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url("../images/gifs/main.webp");
+
+       
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.small-slide-1 {
+    background: url("../images/virtual/virtual-page.PNG");
+
+       
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.slide-2 {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url("../images/gifs/virtual.webp");
+
+       
+    background-size: cover;
+    background-position: center;
+}
+
+
+.small-slide-2 {
+    background: url("../images/tools/tool-page.PNG");
+
+       
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide-3 {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url("../images/gifs/terminal.webp");
+
+       
+    background-size: cover;
+    background-position: center;
+}
+
+.small-slide-3 {
+    background: url("../images/gifs/main.webp");
+
+       
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
