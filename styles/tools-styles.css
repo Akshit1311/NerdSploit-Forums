@@ -20,7 +20,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.668));
     overflow-x: hidden;
     height: 100vh;
-    z-index: ;
+
 }
 
 @keyframes kali {
@@ -84,11 +84,6 @@
 }
 
 
-.tool-icon {
-    /* height: 50px; */
-    width: 50px !important;
-    display: inline;
-}
 
 .card-container {
     position: relative;
