@@ -1863,3 +1863,21 @@ section
 {
 	border-bottom: solid 1px rgba(255,255,255,1);
 }
+
+
+.welcome-msg {
+	font-weight: 700 !important;
+	letter-spacing: 0.25rem ;
+	line-height: 5rem;
+	font-size: 2rem;
+}
+
+.ns {
+	font-weight: 800;
+	font-size: 5rem;
+}
+
+.forum {
+	font-size: 3.5rem;
+	font-weight: 800;
+}

@@ -89,7 +89,15 @@
     position: relative;
     width: 200px;
     margin: 5rem auto;
+    box-shadow: 10px 10px 5px 5px;
+    height: 200px
   }
+
+.card-container:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 0 0 0;
+}
 
 .card-row {
 

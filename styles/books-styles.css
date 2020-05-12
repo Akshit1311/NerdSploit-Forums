@@ -1,5 +1,8 @@
 .book {
     box-shadow: 10px 10px 5px 5px;
+    height: 250px;
+    margin: auto;
+    display: block;
 }
 
 .book:hover {

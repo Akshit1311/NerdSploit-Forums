@@ -82,7 +82,7 @@
 									<div class="home_slider_content">
 										<div class="home_slider_item_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
 										<div class="home_slider_item_title">
-											<a href="post.html">Welcome To NerdSploit Forums!!</a>
+											<a href="post.html"><h1 class="welcome-msg">Welcome To <span class="ns">NerdSploit</span> <span class="forum">Forums!!</span> </h1></a>
 										</div>
 										<div class="home_slider_item_link">
 											<a href="post.html" class="trans_200">Continue Reading

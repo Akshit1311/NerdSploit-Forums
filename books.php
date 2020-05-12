@@ -168,7 +168,16 @@
 	<br>
 	<br>
 
+	<br>
+	<br>
+
 	<!-- Footer -->
+
+	<?php
+
+		include "footer.html"
+
+	?>
 
 	
 </div>
