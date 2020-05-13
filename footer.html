@@ -1,6 +1,16 @@
 <head>
-    <!-- <link rel="stylesheet" href="./styles/footer.css"> -->
+    <link rel="stylesheet" href="./styles/register.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+
 </head>
+
+
+
+
 
 <!-- Footer -->
 
@@ -60,3 +70,75 @@
         </div>
     </div>
 </footer>
+
+
+<div class="register-container">
+</div>
+
+    <div class="register">
+
+                
+        <!-- <div class="back"></div> -->
+        <div class="registration-form">
+            <header>
+                <h1>Sign Up</h1>
+                <p>Fill in all informations</p>
+                <br>
+                <i class="fa fa-times close-reg-form"></i>
+
+                <div>
+                    Already Registered ? <a href="signin.php">Sign In</a>
+                </div>
+
+            </header>
+            <form>
+                <div class="input-section email-section">
+                <input class="email" type="email" placeholder="ENTER YOUR E-MAIL HERE" autocomplete="off"/>
+                <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button email"><i class="fa fa-arrow-up"></i></span></div>
+                </div>
+                <div class="input-section password-section folded">
+                <input class="password" type="password" placeholder="ENTER YOUR PASSWORD HERE"/>
+                <div class="animated-button"><span class="icon-lock"><i class="fa fa-lock"></i></span><span class="next-button password"><i class="fa fa-arrow-up"></i></span></div>
+                </div>
+                <div class="input-section repeat-password-section folded">
+                <input class="repeat-password" type="password" placeholder="REPEAT YOUR PASSWORD HERE"/>
+                <div class="animated-button"><span class="icon-repeat-lock"><i class="fa fa-lock"></i></span><span class="next-button repeat-password"><i class="fa fa-paper-plane"></i></span></div>
+                </div>
+                <div class="success"> 
+                <p>ACCOUNT CREATED</p>
+                </div>
+
+
+                
+            </form>
+
+            
+        </div>
+
+    </div>
+
+
+
+<script>
+    $(".close-reg-form").click(function(){
+        $(".register-container").fadeOut();
+        $(".register").fadeOut();
+    });
+
+    $(".register-container").click(function(){
+        $(".register-container").fadeOut();
+        $(".register").fadeOut();
+
+    })
+</script>
+
+
+<script src="./js/loading.js"></script>
+
+
+<script src="./js/register.js"></script>
+
+
+
+
+

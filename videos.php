@@ -4,7 +4,7 @@
 <title>Post</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Demo project">
+<meta name="description" content="videos project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -63,6 +63,8 @@
 	<!-- Home -->
 
 	<div class="home">
+		<div class="cover"></div>
+
 		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="./images/virtual/bg.PNG" data-speed="0.8"></div>
 		<div class="home_content">
 			<div class="post_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
@@ -72,8 +74,43 @@
 
 	<br><br>
 	
+<div id="videos" class="carousel slide" data-interval="false" data-ride="carousel">
 
-	<section class="videos">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#videos" data-slide-to="0" class="active"></li>
+    <li data-target="#videos" data-slide-to="1"></li>
+    <li data-target="#videos" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<!-- <img src="https://picsum.photos/200/100" alt="Los Angeles" width="1100" height="500"> -->
+			<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/GRQ43F2E1QE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		</div>
+		<div class="carousel-item">
+			<!-- <img src="https://picsum.photos/200/100" alt="Chicago" width="1100" height="500"> -->
+		</div>
+		<div class="carousel-item">
+			<!-- <img src="https://picsum.photos/200/100" alt="New York" width="1100" height="500"> -->
+		</div>
+	</div>
+	
+	<!-- Left and right controls -->
+	<a class="carousel-control-prev" href="#videos" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</a>
+	<a class="carousel-control-next" href="#videos" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+</div>
+
+
+
+
+<!-- <section class="videos">
 
 		
 	<div class="row">
@@ -110,7 +147,7 @@
 	<br>
 	<br>
 
-	</section>
+</section> -->
 	
 	
 

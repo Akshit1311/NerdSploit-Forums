@@ -1,63 +1,53 @@
 .home_background {
-    background: rgba(0, 0, 0 ,0.7);
+  background: rgba(0, 0, 0, 0.7);
 }
-
-
 
 .virtual-lab {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/virtual/bg1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    height: 4500px;
-    position: static;
-    padding-top: 10rem;
-    
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/virtual/bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 4500px;
+  position: static;
+  padding-top: 10rem;
 }
 
-
-
 .lab-intro {
-
-    margin: auto 10rem;
-    border-bottom: 2px solid white;
-    border-width: 9%;
-    padding-bottom: 5rem;
-    
+  margin: auto 10rem;
+  border-bottom: 2px solid white;
+  border-width: 9%;
+  padding-bottom: 5rem;
 }
 
 #yt-intro {
-    width: 100%;
-    height: 20rem;
-    /* margin-right: 10rem; */
-    
+  width: 100%;
+  height: 20rem;
+  /* margin-right: 10rem; */
 }
 
 .description {
-    text-align: justify;
+  text-align: justify;
 }
 
+@media screen and (max-width: 600px) {
+  .lab-intro {
+    margin: auto;
+  }
 
+  #yt-intro {
+    /* height: 15rem; */
+    width: 100%;
 
-@media screen and (max-width: 600px){
-    .lab-intro {
-        margin: auto;
-        
-    }
+    margin-bottom: 2rem;
+  }
 
-    #yt-intro {
-        /* height: 15rem; */
-        width: 100%;
-
-        margin-bottom: 2rem;
-    }
-
-    .img {
-        width: 100%;
-    }
+  .img {
+    width: 100%;
+  }
 }
 
 .tutorial {
-    margin: 10rem auto;
+  margin: 10rem auto;
 }

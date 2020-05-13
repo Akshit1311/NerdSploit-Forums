@@ -36,7 +36,7 @@
 
 
 <!-- Custom CSS -->
-<link rel="stylesheet" href="./styles/tools-styles.css">
+<!-- <link rel="stylesheet" href="./styles/tools-styles.css"> -->
 
 <link rel="stylesheet" href="styles/home.css">
 
@@ -45,7 +45,13 @@
 <link rel="icon" href="./images/logos/favicon.ico" type="image/icon" sizes="30x16">
 
 </head>
-<body>
+<body onload="preLoader()">
+
+
+
+<div id="loading">
+  <img class="preloader-img" src="./images/logos/logo forum trans.png" alt="" />
+</div>
 
 <div class="super_container">
 
@@ -65,7 +71,7 @@
 	<!-- Home -->
 
 	<div class="home">
-	<img id="kali-logo" src="./images/tools/kali-logo.png" alt="">
+	<!-- <img id="kali-logo" src="./images" alt=""> -->
 		
 		<!-- Home Slider -->
 

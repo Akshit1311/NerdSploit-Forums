@@ -1,17 +1,16 @@
 .book {
-    box-shadow: 10px 10px 5px 5px;
-    height: 250px;
-    margin: auto;
-    display: block;
+  box-shadow: 10px 10px 5px 5px;
+  height: 250px;
+  margin: 4rem auto;
+  display: block;
 }
 
 .book:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
-    box-shadow: 0 0 0 0;
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: 0 0 0 0;
 }
 
-
 .book-link:hover {
-    color:gray;
+  color: gray;
 }
